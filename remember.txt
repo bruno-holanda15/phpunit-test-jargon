@@ -1,0 +1,8 @@
+- Toda classe deve extends a TestCase para utilizar funções do phpunit.
+- Unit test , foca em testar apenas classes e algumas features , mas mantendo o mesmo específico e objetivo,
+    não é um end to end.
+- Dentro das funções que serão testadas, recomenda-se que utilize uma assert por função (ou o menor número possível)
+    , pois se você está utilizando mais de uma assert por função, pode ser que tenha mais de uma funcionalidade na sua função
+    e ela deve ser refatorada.
+- No video ele cita para escrever o mínimo de código, para o test passar, e apenas quando apresenta outras necessidades
+    nós mudaríamos o código para o mesmo passar e atender a situação.
